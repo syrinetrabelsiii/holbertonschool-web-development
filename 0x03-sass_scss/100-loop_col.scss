@@ -1,6 +1,6 @@
 /*columns and operators*/
 @for $i from 1 to 4{
-    .col-{$i} {
+    .col-#{$i} {
         width: (100%, 50%, 33.3333333333%, 25%);
     }
 }
