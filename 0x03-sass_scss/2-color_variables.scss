@@ -1,17 +1,13 @@
-/*Sass file that assigns:
-the text color
-the background color*/
-
+/*Sass file that assigns: text color, background color with 2 sass ariables*/
 $text-color: #3D3D3D;
 $background-color: #6D6D6D;
-
 body {
     color: $text-color;
-    color: $background-color;
+    background-color: $background-color;
 }
 p {
-    color: $text-color
+    color: $text-color;
 }
 h2 {
-    color: $background-color;
+    background-color: $background-color;
 }
