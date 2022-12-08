@@ -1,0 +1,14 @@
+/* Sass sile that assigns:
+no margin in padding
+margin 10px to all of the p tags inside body tags*/
+
+$margin: none;
+$padding: none;
+
+body{
+    margin: 0%;
+    padding: 0%;
+    p{
+        margin: 10px;
+    }
+}
