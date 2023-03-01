@@ -25,6 +25,8 @@
         const firstname = cookies[0].split('=')[1];
         const email = cookies[1].split('=')[1];
 
+        document.body.appendChild(paragraph);
+        paragraph.innerHTML = `Cookies: ${firstname}, ${email}`;
     }
 </script>
 </body>
